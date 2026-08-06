@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 2.0″ AMOLED 460×460（CO5300 · MIPI）</h1>
 
-<p align="center"><b>圆形 AMOLED 模组 · MIPI · CO5300 · 电容触摸</b></p>
+<p align="center"><b>AMOLED 模组 · MIPI · CO5300 · 电容触摸</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -27,7 +27,7 @@
 
 ## 产品简介
 
-OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口圆形彩色显示模组，显示驱动为 **CO5300**，触摸驱动为 **CST820**。适合穿戴表盘、圆形仪表与小型圆形 HMI 等场景。
+OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口彩色显示模组，显示驱动为 **CO5300**，触摸驱动为 **CST820**。适合手持终端、穿戴与小型 HMI 等场景。
 
 规格标识（仓库名）：`2.0-amoled-460x460-mipi-co5300`
 
@@ -36,7 +36,7 @@ OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口圆形彩色显示�
 | 项目 | 规格 |
 | ---- | ---- |
 | 尺寸 | 2.0 英寸 |
-| 类型 | AMOLED（彩色，圆形） |
+| 类型 | AMOLED（彩色） |
 | 分辨率 | 460×460 |
 | 接口 | MIPI |
 | 驱动 IC | CO5300 |

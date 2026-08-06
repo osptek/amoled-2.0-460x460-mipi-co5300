@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 2.0″ AMOLED 460×460 (CO5300 · MIPI)</h1>
 
-<p align="center"><b>Round AMOLED module · MIPI · CO5300 · capacitive touch</b></p>
+<p align="center"><b>AMOLED module · MIPI · CO5300 · capacitive touch</b></p>
 
 <p align="center"><a href="./README.md">简体中文</a> | English</p>
 
@@ -27,7 +27,7 @@
 
 ## Overview
 
-OSPTEK **2.0″ 460×460 AMOLED** is a round **MIPI** color display module driven by **CO5300**, with capacitive touch (**CST820**). Suited to wearables, round gauges, and compact circular HMI.
+OSPTEK **2.0″ 460×460 AMOLED** is a **MIPI** color display module driven by **CO5300**, with capacitive touch (**CST820**). Suited to handheld devices, wearables, and compact HMI.
 
 Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 
@@ -36,7 +36,7 @@ Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 | Item | Spec |
 | ---- | ---- |
 | Size | 2.0 inch |
-| Type | AMOLED (color, round) |
+| Type | AMOLED (color) |
 | Resolution | 460×460 |
 | Interface | MIPI |
 | Driver IC | CO5300 |
