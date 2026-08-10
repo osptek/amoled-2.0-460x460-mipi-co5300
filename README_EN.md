@@ -45,6 +45,7 @@ Repo id: `2.0-amoled-460x460-mipi-co5300`
 ## AM200M460460LK
 
 **Notes:** With touch (CST820).
+
 ---
 
 ## How to Switch Branches
