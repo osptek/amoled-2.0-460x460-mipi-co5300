@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 2.0″ AMOLED 460×460 (CO5300 · MIPI)</h1>
 
-<p align="center"><b>AMOLED module · MIPI · CO5300 · capacitive touch</b></p>
+<p align="center"><b>AMOLED module · MIPI · CO5300 · Multi-Version Index</b></p>
 
-<p align="center"><a href="./README.md">简体中文</a> | English</p>
+<p align="center">English | <a href="./README.md">简体中文</a></p>
 
 <p align="center">
   <img alt="Size: 2.0 inch" src="https://img.shields.io/badge/Size-2.0%22-3498DB?style=flat-square" />
@@ -15,76 +15,57 @@
 
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Sample projects](#sample-projects)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
-- [Buy](#buy)
+- [About](#about)
+- [Versions](#versions)
+- [AM200M460460LK](#am200m460460lk)
+- [How to Switch Branches](#how-to-switch-branches)
+- [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **2.0″ 460×460 AMOLED** is a **MIPI** color display module driven by **CO5300**, with capacitive touch (**CST820**). Suited to handheld devices, wearables, and compact HMI.
+This repository holds materials for the **2.0″ 460×460 AMOLED (MIPI · CO5300)** module family.
 
-Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
-## Specifications
+Repo id: `2.0-amoled-460x460-mipi-co5300`
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 2.0 inch |
-| Type | AMOLED (color) |
-| Resolution | 460×460 |
-| Interface | MIPI |
-| Driver IC | CO5300 |
-| Touch driver | CST820 |
+---
 
-> Full outline, FPC definition, power, and timing follow the driver IC datasheet and adapter-board documents.
+## Versions
 
-## Sample projects
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| AM200M460460LK | — | [Details](#am200m460460lk) |
 
-| Description | Path |
-| ---- | ---- |
-| ESP32-P4 · CO5300 MIPI + esp-lvgl-port / LVGL9 (CST820 touch) | [`examples/esp32p4-idf5_co5300-mipi_esp-lvgl-port_lvgl9/`](./examples/esp32p4-idf5_co5300-mipi_esp-lvgl-port_lvgl9/) |
+---
 
-## Repository layout
+## AM200M460460LK
 
-```text
-2.0-amoled-460x460-mipi-co5300/
-├── README.md
-├── README_EN.md
-├── LICENSE
-├── images/          # README assets
-├── docs/            # driver / touch datasheets, adapter board
-└── examples/        # sample projects
-```
+**Notes:** Module.
 
-## Resources
+---
 
-### Product files
+## How to Switch Branches
 
-| Resource | Link |
-| ---- | ---- |
-| Driver IC datasheet (CO5300) | [`docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf`](./docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf) |
-| Touch IC datasheet (CST820) | [`docs/DS_CST_820_V1_2_e0543732ca.pdf`](./docs/DS_CST_820_V1_2_e0543732ca.pdf) |
-| 2.0″ AMOLED adapter board | [`docs/2.0寸AMOLED转接板.pdf`](./docs/2.0%E5%AF%B8AMOLED%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
+Full product materials are on each **version branch**; `main` is navigation only.
 
-### Samples
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
 
-- [ESP32-P4 CO5300 MIPI + LVGL9](./examples/esp32p4-idf5_co5300-mipi_esp-lvgl-port_lvgl9/)
+---
 
-## Buy
+## Where to Buy
 
 <p align="center">
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress store" src="https://img.shields.io/badge/AliExpress-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress Official Store" src="https://img.shields.io/badge/AliExpress-Official_Store-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
   &nbsp;&nbsp;
-  <a href="https://shop110742373.taobao.com/"><img alt="Taobao store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://shop110742373.taobao.com/"><img alt="Taobao Official Store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
 </p>
 
-**Overseas (AliExpress)**
+**International (AliExpress)**
 
 - Store: [OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
 
@@ -92,13 +73,15 @@ Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
 
+---
+
 ## Support
 
-- Technical support / product inquiry: <luyu@osptek.com>
-- QQ group: **985881096**
+- Technical Support / Sales: <luyu@osptek.com>
+- QQ Technical Group: **985881096**
 - Website: <https://osptek.com/>
-- Feel free to open an Issue in this repository with any questions
+- Feel free to open an Issue in this repository if you have any questions
 
 ---
 
-<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>
+<p align="center"><sub>© 2026 OSPTEK · Licensed under CC BY 4.0</sub></p>
