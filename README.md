@@ -38,11 +38,13 @@
 
 | 版本 | 宣传图 | 说明 |
 | ---- | ------ | ---- |
-| AM200M460460LK | — | [查看详情](#am200m460460lk) |
+| AM200M460460LK | <img alt="AM200M460460LK" src="./images/AM200M460460LK.png" width="120" /> | [查看详情](#am200m460460lk) |
 
 ---
 
 ## AM200M460460LK
+
+<p align="center"><img alt="AM200M460460LK" src="./images/AM200M460460LK.png" width="320" /></p>
 
 **说明：** 带触摸（CST820）。
 

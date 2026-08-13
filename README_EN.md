@@ -38,11 +38,13 @@ Repo id: `2.0-amoled-460x460-mipi-co5300`
 
 | Version | Image | Notes |
 | ------- | ----- | ----- |
-| AM200M460460LK | — | [Details](#am200m460460lk) |
+| AM200M460460LK | <img alt="AM200M460460LK" src="./images/AM200M460460LK.png" width="120" /> | [Details](#am200m460460lk) |
 
 ---
 
 ## AM200M460460LK
+
+<p align="center"><img alt="AM200M460460LK" src="./images/AM200M460460LK.png" width="320" /></p>
 
 **Notes:** With touch (CST820).
 
