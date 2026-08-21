@@ -53,6 +53,9 @@ OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口彩色显示模组�
 | 说明 | 路径 |
 | ---- | ---- |
 | ESP32-P4 · CO5300 MIPI + esp-lvgl-port / LVGL9（含 CST820 触摸） | [`examples/esp32p4-idf5_co5300-mipi_esp-lvgl-port_lvgl9/`](./examples/esp32p4-idf5_co5300-mipi_esp-lvgl-port_lvgl9/) |
+| Raspberry Pi 5 · CO5300 460×460 面板驱动 / DT overlay（仅显示） | [`examples/rpi5-panel-co5300-460x460/`](./examples/rpi5-panel-co5300-460x460/) |
+| Raspberry Pi 5 · CST820 触摸驱动 / DT overlay（仅触摸） | [`examples/rpi5-touch-cst820/`](./examples/rpi5-touch-cst820/) |
+| Raspberry Pi 5 · CO5300 显示 + CST820 触摸 / DT overlay | [`examples/rpi5-panel-co5300-cst820-460x460/`](./examples/rpi5-panel-co5300-cst820-460x460/) |
 
 ## 仓库结构
 
@@ -81,6 +84,9 @@ OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口彩色显示模组�
 ### 示例工程
 
 - [ESP32-P4 CO5300 MIPI + LVGL9](./examples/esp32p4-idf5_co5300-mipi_esp-lvgl-port_lvgl9/)
+- [Raspberry Pi 5 CO5300 面板（仅显示）](./examples/rpi5-panel-co5300-460x460/)
+- [Raspberry Pi 5 CST820 触摸（仅触摸）](./examples/rpi5-touch-cst820/)
+- [Raspberry Pi 5 CO5300 显示 + CST820 触摸](./examples/rpi5-panel-co5300-cst820-460x460/)
 
 ## 购买链接
 

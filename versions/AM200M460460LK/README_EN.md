@@ -51,6 +51,9 @@ Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 | Description | Path |
 | ---- | ---- |
 | ESP32-P4 · CO5300 MIPI + esp-lvgl-port / LVGL9 (CST820 touch) | [`examples/esp32p4-idf5_co5300-mipi_esp-lvgl-port_lvgl9/`](./examples/esp32p4-idf5_co5300-mipi_esp-lvgl-port_lvgl9/) |
+| Raspberry Pi 5 · CO5300 460×460 panel / DT overlay (display only) | [`examples/rpi5-panel-co5300-460x460/`](./examples/rpi5-panel-co5300-460x460/) |
+| Raspberry Pi 5 · CST820 touch / DT overlay (touch only) | [`examples/rpi5-touch-cst820/`](./examples/rpi5-touch-cst820/) |
+| Raspberry Pi 5 · CO5300 display + CST820 touch / DT overlay | [`examples/rpi5-panel-co5300-cst820-460x460/`](./examples/rpi5-panel-co5300-cst820-460x460/) |
 
 ## Repository layout
 
@@ -79,6 +82,9 @@ Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 ### Samples
 
 - [ESP32-P4 CO5300 MIPI + LVGL9](./examples/esp32p4-idf5_co5300-mipi_esp-lvgl-port_lvgl9/)
+- [Raspberry Pi 5 CO5300 panel (display only)](./examples/rpi5-panel-co5300-460x460/)
+- [Raspberry Pi 5 CST820 touch (touch only)](./examples/rpi5-touch-cst820/)
+- [Raspberry Pi 5 CO5300 display + CST820 touch](./examples/rpi5-panel-co5300-cst820-460x460/)
 
 ## Buy
 

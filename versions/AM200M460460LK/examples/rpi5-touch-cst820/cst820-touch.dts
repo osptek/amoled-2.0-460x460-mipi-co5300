@@ -1,0 +1,30 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+	compatible = "raspberrypi,5-model-b", "brcm,bcm2712";
+
+	fragment@0 {
+		target = <&i2c_csi_dsi1>;
+		__overlay__ {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			status = "okay";
+
+			cst820: touchscreen@15 {
+				compatible = "hynitron,cst820";
+				reg = <0x15>;
+				status = "okay";
+
+				touchscreen-size-x = <460>;
+				touchscreen-size-y = <460>;
+
+				/* 可选：有接线时再打开
+				interrupt-parent = <&gpio>;
+				interrupts = <17 IRQ_TYPE_EDGE_FALLING>;
+				reset-gpios = <&gpio 27 GPIO_ACTIVE_LOW>;
+				*/
+			};
+		};
+	};
+};
