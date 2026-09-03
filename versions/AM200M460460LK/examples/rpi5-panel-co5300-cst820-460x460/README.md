@@ -57,18 +57,18 @@ sudo cp hynitron_cst820.ko /lib/modules/$(uname -r)/kernel/drivers/input/touchsc
 sudo depmod -a
 ```
 
-# 5. 设备树 Overlay（co5300-cst820-overlay.dts）
+# 5. 设备树 Overlay（vc4-kms-dsi-co5300-cst820-460x460-overlay.dts）
 
 ```
-sudo nano co5300-cst820-overlay.dts
+sudo nano vc4-kms-dsi-co5300-cst820-460x460-overlay.dts
 ```
 
 > 编译并安装：
 
 ```
-dtc -I dts -O dtb -o co5300-cst820-overlay.dtbo co5300-cst820-overlay.dts
+dtc -I dts -O dtb -o vc4-kms-dsi-co5300-cst820-460x460-overlay.dtbo vc4-kms-dsi-co5300-cst820-460x460-overlay.dts
 
-sudo cp co5300-cst820-overlay.dtbo /boot/firmware/overlays/
+sudo cp vc4-kms-dsi-co5300-cst820-460x460-overlay.dtbo /boot/firmware/overlays/
 ```
 
 
@@ -88,7 +88,7 @@ display_auto_detect=0
 
 dtoverlay=vc4-kms-v3d
 
-dtoverlay=co5300-cst820-overlay
+dtoverlay=vc4-kms-dsi-co5300-cst820-460x460-overlay
 
 # 忽略官方 LCD
 ignore_lcd=1

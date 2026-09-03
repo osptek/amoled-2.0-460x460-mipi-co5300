@@ -54,6 +54,7 @@ Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 | Raspberry Pi 5 · CO5300 460×460 panel / DT overlay (display only) | [`examples/rpi5-panel-co5300-460x460/`](./examples/rpi5-panel-co5300-460x460/) |
 | Raspberry Pi 5 · CST820 touch / DT overlay (touch only) | [`examples/rpi5-touch-cst820/`](./examples/rpi5-touch-cst820/) |
 | Raspberry Pi 5 · CO5300 display + CST820 touch / DT overlay | [`examples/rpi5-panel-co5300-cst820-460x460/`](./examples/rpi5-panel-co5300-cst820-460x460/) |
+| Raspberry Pi 5 · CO5300 + CST820 · LVGL | [`examples/rpi5-lvgl-co5300-cst820-460x460/`](./examples/rpi5-lvgl-co5300-cst820-460x460/) |
 
 ## Repository layout
 
@@ -85,6 +86,7 @@ Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 - [Raspberry Pi 5 CO5300 panel (display only)](./examples/rpi5-panel-co5300-460x460/)
 - [Raspberry Pi 5 CST820 touch (touch only)](./examples/rpi5-touch-cst820/)
 - [Raspberry Pi 5 CO5300 display + CST820 touch](./examples/rpi5-panel-co5300-cst820-460x460/)
+- [Raspberry Pi 5 CO5300 + CST820 · LVGL](./examples/rpi5-lvgl-co5300-cst820-460x460/)
 
 ## Buy
 

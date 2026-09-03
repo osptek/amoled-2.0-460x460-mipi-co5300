@@ -2,6 +2,10 @@
  * CO5300 460x460 1-Lane MIPI-DSI Panel Driver for Raspberry Pi 5
  * Adapted for 2.0-inch rectangular AMOLED (Chipone CO5300)
  *
+ * This example is from the open-source sharing by engineers of Yuying Optoelectronics (鱼鹰光电)
+ * on Github.com/osptek. Welcome to provide improvement suggestions.
+ *
+ * 本例程来源于鱼鹰光电的工程师的开源分享 Github.com/osptek，欢迎提出改进意见
  */
 
 #include <drm/drm_mipi_dsi.h>

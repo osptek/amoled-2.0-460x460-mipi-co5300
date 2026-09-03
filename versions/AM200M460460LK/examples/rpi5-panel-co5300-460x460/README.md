@@ -1,8 +1,13 @@
 # 1. 准备工作
 
 ```
+# 更新软件包列表
 sudo apt update
-sudo apt install raspberrypi-kernel-headers build-essential device-tree-compiler
+
+# 安装编译工具链与匹配的内核头文件
+sudo apt install build-essential linux-headers-$(uname -r)
+
+# 创建文件夹并进入
 mkdir co5300-460x460 && cd co5300-460x460
 ```
 
