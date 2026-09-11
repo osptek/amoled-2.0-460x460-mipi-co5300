@@ -33,6 +33,8 @@ OSPTEK **2.0″ 460×460 AMOLED** is a **MIPI** color display module driven by *
 
 Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 
+Current module version: **AM200MT460460FLS2**. Electrical and mechanical details follow [`docs/AM200MT460460FLS2_外形图.pdf`](./docs/AM200MT460460FLS2_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf).
+
 ## Specifications
 
 | Item | Spec |
@@ -44,7 +46,7 @@ Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 | Driver IC | CO5300 |
 | Touch driver | CST820 |
 
-> Full outline, FPC definition, power, and timing follow the driver IC datasheet and adapter-board documents.
+> Full outline, FPC definition, power, and timing follow the mechanical drawing / driver IC datasheet.
 
 ## Sample projects
 
@@ -61,7 +63,7 @@ Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 ```text
 2.0-amoled-460x460-mipi-co5300/                                # repo root (nav: ../../README_EN.md)
 └── versions/
-    └── AM200M460460LK/                                # full materials for this part number
+    └── AM200MT460460FLS2/                              # full materials for this part number
         ├── README.md
         ├── README_EN.md
         ├── images/
@@ -75,9 +77,12 @@ Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
 
 | Resource | Link |
 | ---- | ---- |
+| Mechanical outline (AM200MT460460FLS2) | [`docs/AM200MT460460FLS2_外形图.pdf`](./docs/AM200MT460460FLS2_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) |
 | Driver IC datasheet (CO5300) | [`docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf`](./docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf) |
 | Touch IC datasheet (CST820) | [`docs/DS_CST_820_V1_2_e0543732ca.pdf`](./docs/DS_CST_820_V1_2_e0543732ca.pdf) |
+| 2.0″ AMOLED adapter board V3.0 | [`docs/2.0寸AMOLED转接板V3.0.pdf`](./docs/2.0%E5%AF%B8AMOLED%E8%BD%AC%E6%8E%A5%E6%9D%BFV3.0.pdf) |
 | 2.0″ AMOLED adapter board | [`docs/2.0寸AMOLED转接板.pdf`](./docs/2.0%E5%AF%B8AMOLED%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
+| FPC connector (OK-14F024-04) | [`docs/OK-14F024-04.pdf`](./docs/OK-14F024-04.pdf) |
 | 3D model (STEP) | [`docs/AM_200_Q460460.step`](./docs/AM_200_Q460460.step) |
 
 ### Samples

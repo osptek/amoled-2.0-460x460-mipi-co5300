@@ -33,7 +33,7 @@ OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口彩色显示模组�
 
 规格标识（仓库名）：`2.0-amoled-460x460-mipi-co5300`
 
-当前模组版本：**AM200M460460LK**（料号暂定，待规格书确认）。
+当前模组版本：**AM200MT460460FLS2**。电气与外形细节以 [`docs/AM200MT460460FLS2_外形图.pdf`](./docs/AM200MT460460FLS2_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) 为准。
 
 ## 规格参数
 
@@ -46,7 +46,7 @@ OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口彩色显示模组�
 | 驱动 IC | CO5300 |
 | 触摸驱动 | CST820 |
 
-> 完整外形尺寸、FPC 定义、供电与时序以驱动手册及转接板资料为准。
+> 完整外形尺寸、FPC 定义、供电与时序以产品外形图 / 驱动手册为准。
 
 ## 示例工程
 
@@ -63,7 +63,7 @@ OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口彩色显示模组�
 ```text
 2.0-amoled-460x460-mipi-co5300/                                # 仓库根（导航见 ../../README.md）
 └── versions/
-    └── AM200M460460LK/                                # 本料号完整资料
+    └── AM200MT460460FLS2/                              # 本料号完整资料
         ├── README.md
         ├── README_EN.md
         ├── images/
@@ -77,9 +77,12 @@ OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口彩色显示模组�
 
 | 资料 | 链接 |
 | ---- | ---- |
+| 外形图（AM200MT460460FLS2） | [`docs/AM200MT460460FLS2_外形图.pdf`](./docs/AM200MT460460FLS2_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) |
 | 驱动 IC 数据手册（CO5300） | [`docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf`](./docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf) |
 | 触摸 IC 数据手册（CST820） | [`docs/DS_CST_820_V1_2_e0543732ca.pdf`](./docs/DS_CST_820_V1_2_e0543732ca.pdf) |
+| 2.0 寸 AMOLED 转接板 V3.0 | [`docs/2.0寸AMOLED转接板V3.0.pdf`](./docs/2.0%E5%AF%B8AMOLED%E8%BD%AC%E6%8E%A5%E6%9D%BFV3.0.pdf) |
 | 2.0 寸 AMOLED 转接板 | [`docs/2.0寸AMOLED转接板.pdf`](./docs/2.0%E5%AF%B8AMOLED%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
+| FPC 连接器（OK-14F024-04） | [`docs/OK-14F024-04.pdf`](./docs/OK-14F024-04.pdf) |
 | 3D 模型（STEP） | [`docs/AM_200_Q460460.step`](./docs/AM_200_Q460460.step) |
 
 ### 示例工程

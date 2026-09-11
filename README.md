@@ -17,7 +17,7 @@
 
 - [说明](#说明)
 - [版本一览](#版本一览)
-- [AM200M460460LK](#am200m460460lk)
+- [AM200MT460460FLS2](#am200mt460460fls2)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
@@ -37,17 +37,17 @@
 
 | 版本 | 宣传图 | 简介 | 完整资料 |
 | ---- | ------ | ---- | -------- |
-| AM200M460460LK | <img alt="AM200M460460LK" src="./versions/AM200M460460LK/images/product.png" width="120" /> | [简介](#am200m460460lk) | [完整资料](./versions/AM200M460460LK/) |
+| AM200MT460460FLS2 | <img alt="AM200MT460460FLS2" src="./versions/AM200MT460460FLS2/images/product.png" width="120" /> | [简介](#am200mt460460fls2) | [完整资料](./versions/AM200MT460460FLS2/) |
 
 ---
 
-## AM200M460460LK
+## AM200MT460460FLS2
 
-<p align="center"><img alt="AM200M460460LK" src="./versions/AM200M460460LK/images/product.png" width="320" /></p>
+<p align="center"><img alt="AM200MT460460FLS2" src="./versions/AM200MT460460FLS2/images/product.png" width="320" /></p>
 
-**说明：** 带触摸（CST820）。
+**说明：** 带触摸（CST820），FPC 24 Pin。
 
-完整产品页、规格书与示例：[versions/AM200M460460LK/](./versions/AM200M460460LK/)
+完整产品页、规格书与示例：[versions/AM200MT460460FLS2/](./versions/AM200MT460460FLS2/)
 
 ---
 

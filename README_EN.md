@@ -17,7 +17,7 @@
 
 - [About](#about)
 - [Versions](#versions)
-- [AM200M460460LK](#am200m460460lk)
+- [AM200MT460460FLS2](#am200mt460460fls2)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -37,17 +37,17 @@ Repo id: `2.0-amoled-460x460-mipi-co5300`
 
 | Version | Image | Summary | Full docs |
 | ------- | ----- | ------- | --------- |
-| AM200M460460LK | <img alt="AM200M460460LK" src="./versions/AM200M460460LK/images/product.png" width="120" /> | [Summary](#am200m460460lk) | [Full docs](./versions/AM200M460460LK/) |
+| AM200MT460460FLS2 | <img alt="AM200MT460460FLS2" src="./versions/AM200MT460460FLS2/images/product.png" width="120" /> | [Summary](#am200mt460460fls2) | [Full docs](./versions/AM200MT460460FLS2/) |
 
 ---
 
-## AM200M460460LK
+## AM200MT460460FLS2
 
-<p align="center"><img alt="AM200M460460LK" src="./versions/AM200M460460LK/images/product.png" width="320" /></p>
+<p align="center"><img alt="AM200MT460460FLS2" src="./versions/AM200MT460460FLS2/images/product.png" width="320" /></p>
 
-**Notes:** With touch (CST820).
+**Notes:** With touch (CST820), 24-pin FPC.
 
-Full product page, datasheets, and examples: [versions/AM200M460460LK/](./versions/AM200M460460LK/)
+Full product page, datasheets, and examples: [versions/AM200MT460460FLS2/](./versions/AM200MT460460FLS2/)
 
 ---
 
