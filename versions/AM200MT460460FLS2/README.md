@@ -31,7 +31,7 @@
 
 OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口彩色显示模组，显示驱动为 **CO5300**，触摸驱动为 **CST820**。适合手持终端、穿戴与小型 HMI 等场景。
 
-规格标识（仓库名）：`2.0-amoled-460x460-mipi-co5300`
+规格标识（仓库名）：`amoled-2.0-460x460-mipi-co5300`
 
 当前模组版本：**AM200MT460460FLS2**。电气与外形细节以 [`docs/AM200MT460460FLS2_外形图.pdf`](./docs/AM200MT460460FLS2_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) 为准。
 
@@ -61,7 +61,7 @@ OSPTEK **2.0 寸 460×460 AMOLED** 是一款 **MIPI** 接口彩色显示模组�
 ## 仓库结构
 
 ```text
-2.0-amoled-460x460-mipi-co5300/                                # 仓库根（导航见 ../../README.md）
+amoled-2.0-460x460-mipi-co5300/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     └── AM200MT460460FLS2/                              # 本料号完整资料
         ├── README.md

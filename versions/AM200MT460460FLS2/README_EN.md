@@ -31,7 +31,7 @@
 
 OSPTEK **2.0″ 460×460 AMOLED** is a **MIPI** color display module driven by **CO5300**, with capacitive touch (**CST820**). Suited to handheld devices, wearables, and compact HMI.
 
-Spec ID (repository name): `2.0-amoled-460x460-mipi-co5300`
+Spec ID (repository name): `amoled-2.0-460x460-mipi-co5300`
 
 Current module version: **AM200MT460460FLS2**. Electrical and mechanical details follow [`docs/AM200MT460460FLS2_外形图.pdf`](./docs/AM200MT460460FLS2_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf).
 
@@ -61,7 +61,7 @@ Current module version: **AM200MT460460FLS2**. Electrical and mechanical details
 ## Repository layout
 
 ```text
-2.0-amoled-460x460-mipi-co5300/                                # repo root (nav: ../../README_EN.md)
+amoled-2.0-460x460-mipi-co5300/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── AM200MT460460FLS2/                              # full materials for this part number
         ├── README.md
