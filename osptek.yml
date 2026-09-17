@@ -6,6 +6,7 @@ panel: amoled
 resolution: 460x460
 interface: [mipi]
 shape: rect
+corner: rounded
 
 versions:
   - id: AM200MT460460FLS2
