@@ -1,0 +1,14 @@
+id: amoled-2.0-460x460-mipi-co5300
+category: displays
+
+size: "2.0"
+panel: amoled
+resolution: 460x460
+interface: [mipi]
+shape: rect
+
+versions:
+  - id: AM200MT460460FLS2
+    driver: CO5300
+    touch: CST820
+    note: 24-pin FPC
